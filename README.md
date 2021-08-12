@@ -29,6 +29,8 @@
 
 <p align="center">A huge collection of <a href="https://github.com/jaagr/polybar">polybar</a> themes with different styles, colors and variants.</p>
 
+<h1 align="center">!!! Now with less dependencies !!!</h1>
+
 ##
 
 <a href="https://github.com/jaagr/polybar"><b>Polybar</b></a> aims to help users build beautiful and highly customizable status bars for their desktop environment, without the need of having a black belt in shell scripting.
