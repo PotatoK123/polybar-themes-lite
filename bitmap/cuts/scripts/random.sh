@@ -70,7 +70,7 @@ hex_to_rgb() {
 }
 
 get_fg_color(){
-    INTENSITY=$(calc "$R*0.299 + $G*0.587 + $B*0.114")
+    INTENSITY=$(bc <<< "$R*0.299 + $G*0.587 + $B*0.114")
     
     if [ $(echo "$INTENSITY>186" | bc) -eq 1 ]; then
         FG="0a0a0a"
